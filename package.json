@@ -1,0 +1,42 @@
+{
+  "name": "intersectionobserver",
+  "version": "1.0.0",
+  "description": "IntersectionObserver 사용하여 imageLazyLoading모듈 성능 테스트 진행",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juuuuuuuuuuuuuu/IntersectionObserver.git"
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "browserslist": [
+    "defaults"
+  ],
+  "author": "juuuuu",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.6",
+    "@babel/plugin-transform-runtime": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "autoprefixer": "^9.7.6",
+    "jquery": "^3.5.1",
+    "normalize.css": "^8.0.1",
+    "postcss-import": "^12.0.1",
+    "regenerator-runtime": "^0.13.5",
+    "reset-css": "^5.0.1",
+    "rollup": "^2.8.1",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-browsersync": "^1.1.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-generate-html-template": "^1.6.1",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-postcss": "^3.1.1",
+    "rollup-plugin-sourcemaps": "^0.6.1"
+  }
+}
